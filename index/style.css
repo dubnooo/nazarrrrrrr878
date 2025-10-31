@@ -1,0 +1,93 @@
+html{
+
+}
+
+body{
+   font-family:sans-serif;
+}
+
+header{
+    background-color: rgb(112, 112, 255);
+}
+
+.naz{
+   background-color: blue; 
+   color:rgb(220, 220, 255);
+}
+
+nav {
+    border-top:2px solid white;
+    border-bottom:2px solid white;
+    display: flex;
+    justify-content: space-around;
+    padding:10px;
+    margin-top:10px;
+}
+header a{
+    width:24%;
+    text-align: center;
+    background-color: white;
+    border:2px solid blue;
+    text-decoration: none;
+    color:blue;
+}
+
+.a:hover{
+    background-color: brown;
+    color:white;
+    border:3px solid darkred;
+    box-shadow: 5px 5px 5px 0 rgb(98, 49, 0);
+}
+
+.b:hover{
+    background-color: orange;
+    color:blue;
+    border:3px solid darkorange;
+    box-shadow: 5px 5px 5px 0 rgb(127, 73, 20);
+}
+
+.c:hover{
+    background-color: green;
+    color:yellow;
+    border:3px solid red;
+    box-shadow: 5px 5px 5px 0 rgb(174, 0, 0);
+}
+
+
+div{
+    border:10px solid blue; 
+    width:150px;
+    text-align: center;
+}
+
+img{
+    height:150px;
+}
+
+.zamo{
+    border:1px solid red;
+    border-radius: 10px;
+    background-color: red;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.zamo:hover{
+    padding: 2px;
+}
+
+
+section{
+    display:flex;
+    justify-content: space-between;
+}
+
+i{
+    color:white;
+    background-color: red;
+    border-radius:5px;
+    padding:2px;
+}
+
+
